@@ -21,7 +21,7 @@ function App() {
     
     </div>
     <button class='btn btn-danger mx-5' onClick={signInWithGoogle}>
-      {!isLoggedIn ? "Sign In" : "Sign Out"}
+      {!isLoggedIn ? "SignIn" : "SignOut"}
      </button>
   </div>
 </nav>
