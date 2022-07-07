@@ -16,7 +16,6 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
 const provider = new GoogleAuthProvider();
-export var isLoggedIn = false;
 
 export const signInWithGoogle = () => {
   signInWithPopup(auth, provider)
@@ -32,6 +31,4 @@ export const signInWithGoogle = () => {
     .catch((error) => {
       console.log(error);
     });
-
-  isLoggedIn = true;
 };

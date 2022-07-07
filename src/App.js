@@ -1,7 +1,7 @@
 import "./App.css";
 import Timer from "./component/Timer";
 import { signInWithGoogle } from "./Firebase";
-import { isLoggedIn } from "./Firebase";
+
 function App() {
   return (
     <>
