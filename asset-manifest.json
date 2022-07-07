@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Pomodro-timer-app/static/css/main.844489eb.css",
-    "main.js": "/Pomodro-timer-app/static/js/main.5fa64f38.js",
-    "static/js/787.0420ccf9.chunk.js": "/Pomodro-timer-app/static/js/787.0420ccf9.chunk.js",
-    "index.html": "/Pomodro-timer-app/index.html",
-    "main.844489eb.css.map": "/Pomodro-timer-app/static/css/main.844489eb.css.map",
-    "main.5fa64f38.js.map": "/Pomodro-timer-app/static/js/main.5fa64f38.js.map",
-    "787.0420ccf9.chunk.js.map": "/Pomodro-timer-app/static/js/787.0420ccf9.chunk.js.map"
+    "main.css": "/Assignment-1/static/css/main.844489eb.css",
+    "main.js": "/Assignment-1/static/js/main.fcbaaffe.js",
+    "static/js/787.0420ccf9.chunk.js": "/Assignment-1/static/js/787.0420ccf9.chunk.js",
+    "index.html": "/Assignment-1/index.html",
+    "main.844489eb.css.map": "/Assignment-1/static/css/main.844489eb.css.map",
+    "main.fcbaaffe.js.map": "/Assignment-1/static/js/main.fcbaaffe.js.map",
+    "787.0420ccf9.chunk.js.map": "/Assignment-1/static/js/787.0420ccf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.844489eb.css",
-    "static/js/main.5fa64f38.js"
+    "static/js/main.fcbaaffe.js"
   ]
 }
