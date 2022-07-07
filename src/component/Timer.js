@@ -4,16 +4,13 @@ import { useState } from "react";
 import "./timer.css";
 
 function Timer() {
-const [start, setStart] = useState(false);
-
+  const [start, setStart] = useState(false);
 
   const [seconds, setSeconds] = useState(0);
 
-
   const [minutes, setMinutes] = useState(25);
   const [displayMsg, setDisplayMsg] = useState(false);
-  
-  
+
   let interval;
   useEffect(() => {
     if (start) {
@@ -21,7 +18,7 @@ const [start, setStart] = useState(false);
         if (seconds === 0) {
           if (minutes !== 0) {
             setSeconds(59);
-            let newMinutes = minutes -1;
+            let newMinutes = minutes - 1;
             setMinutes(newMinutes);
           } else {
             let minutes = displayMsg ? 24 : 4;
@@ -31,7 +28,7 @@ const [start, setStart] = useState(false);
             setDisplayMsg(!displayMsg);
           }
         } else {
-            let newSeconds = seconds -1;
+          let newSeconds = seconds - 1;
           setSeconds(newSeconds);
         }
       }, 1000);
